@@ -22,7 +22,7 @@ int check_cycle(listint_t *list)
 		if (fp != NULL)
 			fp = fp->next;
 
-		if (sp == fp)
+		if (fp != NULL && sp == fp)
 			return (1);
 	}
 
