@@ -11,4 +11,4 @@ if __name__ == "__main__":
             print(str(len(argv) - 1), "arguments:")
 
         for i in range(len(argv) - 1):
-            print(str(i + 1) +":", argv[i+1])
+            print(str(i + 1) +":", argv[i + 1])
